@@ -113,7 +113,7 @@ def main():
     phs_id = os.getenv("DBGAP_STUDY_ID")
 
     # Declare the number of days to look back
-    lookback_days = 7
+    lookback_days = 210
 
     # Get the dbGaP Authorized Requestors for the study ID
     df = get_dbgap_requestors(phs_id)
